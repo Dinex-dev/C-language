@@ -13,7 +13,7 @@ int main()
 	scanf("%d",&len);
 	int arr[len];
 	for (int i=0;i<len;i++){
-		printf("Enter %d value : ",i);
+		printf("Enter %d value : ",i+1);
 		scanf("%d",&arr[i]);
 	}
 	for (int i=0;i<len-1;i++)
@@ -30,9 +30,7 @@ int main()
 		}
 		printf("\n");
 	}
-	for (int i=0;i<len;i++)
-	{
-		printf("%d, ",arr[i]);
-	}
+	printf("sorted array : ");
+	array(len,arr);
 	return 0;
 }
