@@ -5,6 +5,7 @@ int array(int len,int arr[]){
 		printf("%d, ",arr[i]);
 	}
 	printf("\n");
+	return 0;
 }
 int main()
 {
