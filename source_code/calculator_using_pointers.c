@@ -1,4 +1,4 @@
-// write a programm to add, substrac, multiply and divide two numbers using pointers
+// write a programm to add, substract, multiply and divide two numbers using pointers
 #include <stdio.h>
 int main()
 {
@@ -14,4 +14,3 @@ int main()
     printf("\nDivision: %d", *pa / *pb);
     return 0;
 }
-                    
