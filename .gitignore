@@ -1,5 +1,6 @@
 .vscode/*
 source_code/build/*
+source_code/build/*
 bin/*
 source_code/fsd.c
 .gitignore
