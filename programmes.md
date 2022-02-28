@@ -1163,7 +1163,7 @@ int main()
 ```
 ## 40. calculator_using_pointers.c
 ``` c
-// write a programm to add, substrac, multiply and divide two numbers using pointers
+// write a programm to add, substract, multiply and divide two numbers using pointers
 #include <stdio.h>
 int main()
 {
