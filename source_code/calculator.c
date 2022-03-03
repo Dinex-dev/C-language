@@ -10,28 +10,29 @@ int main()
     while (c!='e')
     {
     printf("\n------------------------------------------------------------------------------------\n");
-    printf("\nEnter the operator \n(+) for addition \n(-) for substraction\n(*) for Multiplication\n(/) for division\n(a) for average\n(p) for percentage\npress e to exit : \n");
+    printf("\nEnter the operator \n(+) for addition \n(-) for subtraction\n(*) for Multiplication\n(/) for division\n(a) for average\n(p) for percentage\npress e to exit : ");
     scanf(" %c",&c);
     printf("\n------------------------------------------------------------------------------------\n");
-    if (c=='e')
-    exit(0);
+    if (c=='e'){
+        exit(0);
+    }
     switch (c)
     {
     case '+':
         getno(&a,&b);
-        printf("%f + %f = %f",a,b,a+b);
+        printf("\n%f + %f = %f",a,b,a+b);
         break;
     case '-':
         getno(&a,&b);
-        printf("%f - %f = %f",a,b,a-b);
+        printf("\n%f - %f = %f",a,b,a-b);
         break;
     case '*':
         getno(&a,&b);
-        printf("%f * %f = %f",a,b,a*b);
+        printf("\n%f * %f = %f",a,b,a*b);
         break;
     case '/':
         getno(&a,&b);
-        printf("%f / %f = %f",a,b,a/b);
+        printf("\n%f / %f = %f",a,b,a/b);
         break;
     case 'a':
         printf("How many numbers do you want to take average of : " );
@@ -58,8 +59,8 @@ int main()
     return 0;
 }
 int getno(int *p,int *q){
-    printf("Enter the first number : \n");
+    printf("Enter the first number : ");
     scanf("%f",p);
-    printf("Enter the second number : \n");
+    printf("Enter the second number : ");
     scanf("%f",q);
 }
