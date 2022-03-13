@@ -1,5 +1,4 @@
 #include <stdio.h>
-// write a programme to compare 2 files
 int main()
 {
     FILE *fp1, *fp2;
